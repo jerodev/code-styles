@@ -1,0 +1,17 @@
+{
+    "name": "anyfinder/code-style",
+    "description": "phpcs configurations for AnyFinder projects",
+    "type": "library",
+    "require-dev": {
+        "squizlabs/php_codesniffer": "^3.5",
+        "slevomat/coding-standard": "^5.0"
+    },
+    "license": "private",
+    "authors": [
+        {
+            "name": "jerodev",
+            "email": "jeroen@deviaene.eu"
+        }
+    ],
+    "minimum-stability": "stable"
+}
