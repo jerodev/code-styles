@@ -2,10 +2,6 @@
 <ruleset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="PhpCs_AnyFinder" xsi:noNamespaceSchemaLocation="./vendor/squizlabs/php_codesniffer/phpcs.xsd">
     <description>The AnyFinder coding standard.</description>
 
-    <file>app</file>
-    <file>config</file>
-    <file>tests</file>
-
     <rule ref="PSR2">
         <exclude name="Generic.Files.LineLength" />
         <exclude name="PSR2.ControlStructures.ElseIfDeclaration" />
