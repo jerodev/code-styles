@@ -53,6 +53,16 @@
     <rule ref="SlevomatCodingStandard.ControlStructures.UselessIfConditionWithReturn" />
     <rule ref="SlevomatCodingStandard.ControlStructures.UselessTernaryOperator" />
 
+    <!-- require leading backslash for global functions -->
+    <rule ref="SlevomatCodingStandard.Namespaces.FullyQualifiedGlobalFunctions" />
+
+    <!-- Forbid some functions -->
+    <rule ref="Generic.PHP.ForbiddenFunctions">
+         <properties>
+		 <property name="forbiddenFunctions" type="array" value="dd=>null"/>
+         </properties>
+    </rule>
+
     <!-- `sctrict_types = 1` for every file: on the todo list. -->
     <!-- <rule ref="SlevomatCodingStandard.TypeHints.DeclareStrictTypes" /> -->
 </ruleset>
