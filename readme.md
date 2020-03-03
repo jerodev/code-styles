@@ -1,4 +1,5 @@
-# AnyFinder PHP CodeStyle guidelines
+# PHP code styles
+phpcs rules for my own projects.
 
 ## How to use
 Install this package and create a `phpcs.xml` file in the root of the project with the following content:
