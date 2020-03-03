@@ -1,6 +1,6 @@
 {
-    "name": "anyfinder/code-style",
-    "description": "phpcs configurations for AnyFinder projects",
+    "name": "jerodev/code-styles",
+    "description": "phpcs configurations for projects",
     "type": "library",
     "license": "private",
     "authors": [
