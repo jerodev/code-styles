@@ -59,7 +59,7 @@
     <!-- Forbid some functions -->
     <rule ref="Generic.PHP.ForbiddenFunctions">
          <properties>
-		 <property name="forbiddenFunctions" type="array" value="dd=>null"/>
+		    <property name="forbiddenFunctions" type="array" value="dd=>null"/>
          </properties>
     </rule>
 

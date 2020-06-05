@@ -7,7 +7,7 @@ Install this package and create a `phpcs.xml` file in the root of the project wi
 ```
 <?xml version="1.0"?>
 <ruleset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="PhpCs_AnyFinder" xsi:noNamespaceSchemaLocation="./vendor/squizlabs/php_codesniffer/phpcs.xsd">
-    <rule ref="./vendor/anyfinder/code-style/phpcs.xml" />
+    <rule ref="./vendor/jerodev/code-styles/phpcs.xml" />
 
     <file>app</file>
     <file>..</file>
