@@ -57,7 +57,12 @@
     <!-- Forbid some functions -->
     <rule ref="Generic.PHP.ForbiddenFunctions">
          <properties>
-		    <property name="forbiddenFunctions" type="array" value="dd=>null"/>
+		    <property name="forbiddenFunctions" type="array">
+                <element key="dd" value="null" />
+                <element key="die" value="null" />
+                <element key="ray" value="null" />
+                <element key="var_dump" value="null" />
+            </property>
          </properties>
     </rule>
 </ruleset>
