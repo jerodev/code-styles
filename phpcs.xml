@@ -58,8 +58,10 @@
     <rule ref="SlevomatCodingStandard.TypeHints.NullableTypeForNullDefaultValue" />
     <rule ref="SlevomatCodingStandard.TypeHints.ParameterTypeHintSpacing" />
     <rule ref="SlevomatCodingStandard.TypeHints.PropertyTypeHintSpacing" />
+    <rule ref="SlevomatCodingStandard.Functions.RequireTrailingCommaInCall" />
+    <rule ref="SlevomatCodingStandard.Functions.RequireTrailingCommaInDeclaration" />
 
-    <!-- Forbid some functions -->
+    <!-- Forbid debug functions -->
     <rule ref="Generic.PHP.ForbiddenFunctions">
          <properties>
 		    <property name="forbiddenFunctions" type="array">
